@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190DF5201F88A119001AA04F /* TwentyOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190DF51F1F88A119001AA04F /* TwentyOneViewController.swift */; };
+		198B3FFC1F7E0C1D00430774 /* 21Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198B3FFB1F7E0C1D00430774 /* 21Random.swift */; };
 		198D241E1F794D5D001E13B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D241D1F794D5D001E13B1 /* AppDelegate.swift */; };
 		198D24201F794D5D001E13B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D241F1F794D5D001E13B1 /* ViewController.swift */; };
 		198D24231F794D5D001E13B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198D24211F794D5D001E13B1 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		198D24281F794D5D001E13B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198D24261F794D5D001E13B1 /* LaunchScreen.storyboard */; };
 		198D24331F794D5D001E13B1 /* _1easyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D24321F794D5D001E13B1 /* _1easyTests.swift */; };
 		198D243E1F794D5D001E13B1 /* _1easyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D243D1F794D5D001E13B1 /* _1easyUITests.swift */; };
+		19C728171FA85DD000C60530 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C728161FA85DD000C60530 /* EndViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190DF51F1F88A119001AA04F /* TwentyOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyOneViewController.swift; sourceTree = "<group>"; };
+		198B3FFB1F7E0C1D00430774 /* 21Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21Random.swift; sourceTree = "<group>"; };
 		198D241A1F794D5D001E13B1 /* 21easy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 21easy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		198D241D1F794D5D001E13B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		198D241F1F794D5D001E13B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		198D24391F794D5D001E13B1 /* 21easyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 21easyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		198D243D1F794D5D001E13B1 /* _1easyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1easyUITests.swift; sourceTree = "<group>"; };
 		198D243F1F794D5D001E13B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C728161FA85DD000C60530 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		198D24111F794D5D001E13B1 = {
 			isa = PBXGroup;
 			children = (
+				190DF51F1F88A119001AA04F /* TwentyOneViewController.swift */,
+				19C728161FA85DD000C60530 /* EndViewController.swift */,
 				198D241C1F794D5D001E13B1 /* 21easy */,
 				198D24311F794D5D001E13B1 /* 21easyTests */,
 				198D243C1F794D5D001E13B1 /* 21easyUITests */,
@@ -100,6 +108,7 @@
 				198D241D1F794D5D001E13B1 /* AppDelegate.swift */,
 				198D241F1F794D5D001E13B1 /* ViewController.swift */,
 				198D24211F794D5D001E13B1 /* Main.storyboard */,
+				198B3FFB1F7E0C1D00430774 /* 21Random.swift */,
 				198D24241F794D5D001E13B1 /* Assets.xcassets */,
 				198D24261F794D5D001E13B1 /* LaunchScreen.storyboard */,
 				198D24291F794D5D001E13B1 /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190DF5201F88A119001AA04F /* TwentyOneViewController.swift in Sources */,
+				19C728171FA85DD000C60530 /* EndViewController.swift in Sources */,
 				198D24201F794D5D001E13B1 /* ViewController.swift in Sources */,
+				198B3FFC1F7E0C1D00430774 /* 21Random.swift in Sources */,
 				198D241E1F794D5D001E13B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,11 +441,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MFNG897SQ;
 				INFOPLIST_FILE = 21easy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Hao.-1easy";
+				PRODUCT_BUNDLE_IDENTIFIER = Hao.21easy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +457,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MFNG897SQ;
 				INFOPLIST_FILE = 21easy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Hao.-1easy";
+				PRODUCT_BUNDLE_IDENTIFIER = Hao.21easy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
